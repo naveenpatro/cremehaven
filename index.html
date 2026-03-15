@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artisan Home Bakery - Freshly baked goods made with love. Order custom cakes, brownies, cupcakes and more.">
+    <meta name="keywords" content="home bakery, custom cakes, cupcakes, brownies, fresh baked goods">
+    <meta name="author" content="Crème Haven Artisanal Bakery">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Crème Haven Artisanal Bakery - Freshly Baked Happiness">
+    <meta property="og:description" content="Artisan baked goods made with love and premium ingredients">
+    <meta property="og:type" content="website">
+    
+    <title>Crème Haven Artisinal Bakery - Freshly Baked Happiness</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Cormorant+Garamond:wght@300;400;600&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-cookie-bite"></i>
+                <span>Crème Haven</span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#order" class="nav-link">Order</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">Crème Haven</h1>
+            <p class="hero-subtitle animate-fade-in-delay">Freshly Baked Happiness, Delivered to Your Doorstep</p>
+            <div class="hero-buttons animate-fade-in-delay-2">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#order" class="btn btn-secondary">Order Now</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Story</h2>
+                <div class="title-decoration">
+                    <span class="decoration-line"></span>
+                    <i class="fas fa-heart"></i>
+                    <span class="decoration-line"></span>
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/logo.jpeg" alt="Description">
+                </div>
+                
+                <div class="about-text">
+                    <h3>Baking with Love Since Day One</h3>
+                    <p>Welcome to Crème Haven Artisanal Bakery, where every creation is made with passion, premium ingredients, and a whole lot of love. What started as a small home kitchen experiment has blossomed into a beloved local bakery known for its artisanal treats.</p>
+                    
+                    <p>We believe in the magic of homemade goodness. Every cake, brownie, and cupcake is crafted from scratch using the finest ingredients – real butter, farm-fresh eggs, and premium chocolate. No preservatives, no shortcuts, just pure deliciousness.</p>
+                    
+                    <p>Our mission is simple: to bring joy to your special moments and everyday celebrations. Whether it's a birthday cake, wedding desserts, or just a sweet treat to brighten your day, we pour our heart into every creation.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>100% Fresh Ingredients</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <span>Made with Love</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-award"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Delicious Menu</h2>
+                <div class="title-decoration">
+                    <span class="decoration-line"></span>
+                    <i class="fas fa-cookie"></i>
+                    <span class="decoration-line"></span>
+                </div>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Cakes -->
+                <div class="menu-card" data-category="cakes">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                        <div class="card-badge">Popular</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Chocolate Fudge Cake</h3>
+                        <p>Rich, moist chocolate cake layered with creamy fudge frosting</p>
+                        <div class="card-footer">
+                            <span class="price">₹1,200</span>
+                            <button class="btn-order" data-item="Chocolate Fudge Cake" data-price="1200">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-card" data-category="cakes">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Red Velvet Cake</h3>
+                        <p>Classic red velvet with cream cheese frosting</p>
+                        <div class="card-footer">
+                            <span class="price">₹1,400</span>
+                            <button class="btn-order" data-item="Red Velvet Cake" data-price="1400">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-card" data-category="cakes">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Vanilla Dream Cake</h3>
+                        <p>Light vanilla sponge with buttercream frosting</p>
+                        <div class="card-footer">
+                            <span class="price">₹1,000</span>
+                            <button class="btn-order" data-item="Vanilla Dream Cake" data-price="1000">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Brownies -->
+                <div class="menu-card" data-category="brownies">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cookie"></i>
+                        </div>
+                        <div class="card-badge">Best Seller</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Classic Fudge Brownies</h3>
+                        <p>Dense, fudgy brownies with a crispy top (Box of 6)</p>
+                        <div class="card-footer">
+                            <span class="price">₹350</span>
+                            <button class="btn-order" data-item="Classic Fudge Brownies" data-price="350">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-card" data-category="brownies">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cookie"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Walnut Brownies</h3>
+                        <p>Rich chocolate brownies studded with walnuts (Box of 6)</p>
+                        <div class="card-footer">
+                            <span class="price">₹400</span>
+                            <button class="btn-order" data-item="Walnut Brownies" data-price="400">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cupcakes -->
+                <div class="menu-card" data-category="cupcakes">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cupcake"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Assorted Cupcakes</h3>
+                        <p>Variety pack of vanilla, chocolate & strawberry (Box of 6)</p>
+                        <div class="card-footer">
+                            <span class="price">₹450</span>
+                            <button class="btn-order" data-item="Assorted Cupcakes" data-price="450">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-card" data-category="cupcakes">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cupcake"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Premium Cupcakes</h3>
+                        <p>Gourmet flavors with decorative frosting (Box of 6)</p>
+                        <div class="card-footer">
+                            <span class="price">₹550</span>
+                            <button class="btn-order" data-item="Premium Cupcakes" data-price="550">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Custom Orders -->
+                <div class="menu-card" data-category="custom">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="card-badge">Special</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Custom Cakes</h3>
+                        <p>Personalized designs for your special occasions</p>
+                        <div class="card-footer">
+                            <span class="price">From ₹1,500</span>
+                            <button class="btn-order" data-item="Custom Cake" data-price="1500">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Creations</h2>
+                <div class="title-decoration">
+                    <span class="decoration-line"></span>
+                    <i class="fas fa-camera"></i>
+                    <span class="decoration-line"></span>
+                </div>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item tall">
+                    <div class="image-placeholder">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-cupcake"></i>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-cookie"></i>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery-item wide">
+                    <div class="image-placeholder">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-cookie-bite"></i>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed Section -->
+    <section class="instagram-feed" id="instagram">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Follow Us on Instagram</h2>
+                <div class="title-decoration">
+                    <span class="decoration-line"></span>
+                    <i class="fab fa-instagram"></i>
+                    <span class="decoration-line"></span>
+                </div>
+                <p class="instagram-handle">@_cremehaven_</p>
+            </div>
+            
+            <div class="instagram-grid">
+                <div class="instagram-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div class="instagram-overlay">
+                        <div class="instagram-stats">
+                            <span><i class="fas fa-heart"></i> 234</span>
+                            <span><i class="fas fa-comment"></i> 12</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instagram-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-cupcake"></i>
+                    </div>
+                    <div class="instagram-overlay">
+                        <div class="instagram-stats">
+                            <span><i class="fas fa-heart"></i> 189</span>
+                            <span><i class="fas fa-comment"></i> 8</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instagram-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-cookie"></i>
+                    </div>
+                    <div class="instagram-overlay">
+                        <div class="instagram-stats">
+                            <span><i class="fas fa-heart"></i> 312</span>
+                            <span><i class="fas fa-comment"></i> 24</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instagram-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div class="instagram-overlay">
+                        <div class="instagram-stats">
+                            <span><i class="fas fa-heart"></i> 267</span>
+                            <span><i class="fas fa-comment"></i> 15</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instagram-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-cookie-bite"></i>
+                    </div>
+                    <div class="instagram-overlay">
+                        <div class="instagram-stats">
+                            <span><i class="fas fa-heart"></i> 198</span>
+                            <span><i class="fas fa-comment"></i> 9</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instagram-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-cupcake"></i>
+                    </div>
+                    <div class="instagram-overlay">
+                        <div class="instagram-stats">
+                            <span><i class="fas fa-heart"></i> 245</span>
+                            <span><i class="fas fa-comment"></i> 18</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="instagram-cta">
+                <a href="https://instagram.com/_cremehaven_" target="_blank" class="btn btn-instagram">
+                    <i class="fab fa-instagram"></i> Follow Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <div class="title-decoration">
+                    <span class="decoration-line"></span>
+                    <i class="fas fa-star"></i>
+                    <span class="decoration-line"></span>
+                </div>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Absolutely divine! The chocolate fudge cake was a hit at my daughter's birthday party. Everyone kept asking where I got it from. Will definitely order again!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Priya Sharma</h4>
+                            <span>Hyderabad</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Best brownies I've ever had! They're perfectly fudgy and the walnut ones are to die for. The packaging was beautiful too. Highly recommend!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Rajesh Kumar</h4>
+                            <span>Hyderabad</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Ordered a custom wedding cake and it exceeded all expectations! Not only was it stunning, but it tasted amazing. Thank you for making our day special!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Ananya & Vikram</h4>
+                            <span>Hyderabad</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The cupcakes are absolutely adorable and delicious! Perfect for gifting. Love the attention to detail and the fresh ingredients really make a difference."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Meera Reddy</h4>
+                            <span>Hyderabad</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Professional service and exceptional quality! The red velvet cake was moist, fresh, and beautifully decorated. This is now my go-to bakery for all celebrations."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Arjun Patel</h4>
+                            <span>Hyderabad</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section class="order" id="order">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Place Your Order</h2>
+                <div class="title-decoration">
+                    <span class="decoration-line"></span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="decoration-line"></span>
+                </div>
+                <p class="section-subtitle">Fill out the form below and we'll get back to you shortly</p>
+            </div>
+            
+            <div class="order-content">
+                <form class="order-form" id="orderForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="deliveryDate">Delivery Date *</label>
+                            <input type="date" id="deliveryDate" name="deliveryDate" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="orderDetails">Order Details *</label>
+                        <textarea id="orderDetails" name="orderDetails" rows="4" placeholder="Please specify the items, quantities, and any customization details..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Additional Message</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Any special requests or dietary restrictions?"></textarea>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="fas fa-paper-plane"></i> Submit Order
+                        </button>
+                        <button type="button" class="btn btn-whatsapp" id="whatsappOrder">
+                            <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="order-info">
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Order Timeline</h3>
+                        <p>We require a minimum of 48 hours notice for all orders. Custom cakes may require 3-5 days.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-truck"></i>
+                        <h3>Delivery</h3>
+                        <p>Free delivery within 10km radius. Additional charges apply for locations beyond.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-credit-card"></i>
+                        <h3>Payment</h3>
+                        <p>We accept UPI, cash on delivery, and online bank transfers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-decoration">
+                    <span class="decoration-line"></span>
+                    <i class="fas fa-envelope"></i>
+                    <span class="decoration-line"></span>
+                </div>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+918327760349">+91 83277 60349</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon whatsapp-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p><a href="https://wa.me/918327760349" target="_blank">+91 83277 60349</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon instagram-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p><a href="https://instagram.com/_cremehaven_" target="_blank">@_cremehaven_</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p>Bachupally, Hyderabad<br>Telangana 500090</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Business Hours</h3>
+                    <p>Mon - Sat: 9 AM - 7 PM<br>Sunday: 10 AM - 5 PM</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:reshma@cremehavenbakery.com">reshma@cremehavenbakery.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-cookie-bite"></i>
+                        <span>Crème Haven Artisanal Bakery</span>
+                    </div>
+                    <p>Baking happiness, one treat at a time. Made with love and the finest ingredients.</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/cremehavenbakery" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/cremehavenbakery" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/918327760349" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://twitter.com/sweethavenbake" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="#order">Place Order</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for special offers and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Crème Haven Artisanal Bakery. All rights reserved. Made with <i class="fas fa-heart"></i> in Hyderabad</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
